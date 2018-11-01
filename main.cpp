@@ -217,22 +217,22 @@ int main() {
     /*a->Eliminar(7);
     a->Eliminar(23);*/
 
-   // a->Insertar(8,4); //ESTÁ INCOMPLETO...
+    // a->Insertar(8,4); //ESTÁ INCOMPLETO...
 
     Arbol<string> *ab= new Arbol<string> ;
     ab->InsertarRaiz("hey");
     ab->Insertar("hey","yo");
     cout << ab->Altura();
 
+    Arbol<int> *m= new Arbol<int>() ;
+    m->InsertarRaiz(7);
+    m->InsertarEnMonticulo(5);
+    m->InsertarEnMonticulo(11);
+    m->InsertarEnMonticulo(13);
+    m->InsertarEnMonticulo(3);
+    m->InsertarEnMonticulo(2);
+    m->InsertarEnMonticulo(17);
+    m->InsertarEnMonticulo(19);
+
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
